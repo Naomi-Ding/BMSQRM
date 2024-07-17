@@ -26,6 +26,19 @@
 
 
 ## 2. Usage of [main_process.R](main_process.R):
+### Required Libraries
+```
+pracma
+fda
+fdasrvf
+GIGrvg
+MfUSampler
+Rcpp
+coda
+ald
+ggplot2
+KernSmooth
+```
 
 ### Input Structure:
 - **x**: scalar predictors, (p,n)
