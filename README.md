@@ -147,14 +147,14 @@ R CMD BATCH simu_main.R 200 100 0.5 TRUE 3 10 1 1E5 6E4 100 5 1 FALSE TRUE 9 2 0
 ```
 
  
-### 3. Visualization
+### (c) Visualization
 #### (a) Illustration of curve generating process 
 
 ![Curve Generating Process](./figures/curves_generation_spike_slab.png)
 
-Fig 1. Simulated initial curves $\{c_{1,i}^{(0)}\}_{i=1}^n$ (Panel A) and $\{c_{2,i}^{(0)}\}_{i=1}^n$ (Panel D); perfectly registered functional covariates $\{c_{1,i}^*(t)\}_{i=1}^n$ (Panel B) and $\{c_{2,i}^*(t)\}_{i=1}^n$ (Panel E); and ``observed" unregistered functional covariates $\{c_{1,i}(t)\}_{i=1}^n$ (Panel C) and $\{c_{2,i}(t)\}_{i=1}^n$ (Panel F).
+Fig 1. Simulated initial curves $\{c\_{1,i}^{(0)}\} \_{i=1}^n$ (Panel A) and $\{c\_{2,i}^{(0)}\}\_{i=1}^n$ (Panel D); perfectly registered functional covariates $\{c\_{1,i}^*(t)\}\_{i=1}^n$ (Panel B) and $\{c\_{2,i}^*(t)\}\_{i=1}^n$ (Panel E); and ``observed" unregistered functional covariates $\{c\_{1,i}(t)\}\_{i=1}^n$ (Panel C) and $\{c\_{2,i}(t)\}\_{i=1}^n$ (Panel F).
 
 #### (b) Visualization of simulation results with two functional covariates
 ![Simulation Results](./figures/simu_fz_gamma_examples.png)
 
-Fig 2. Comparing estimated link  $\widehat{f}(z)$ and   $\hat{\gamma}_k(t), k=1,2$ (red curves) with the corresponding true link $f$ and true functional coefficients (black curves). The top row plots (Panel A-C) correspond to \textit{Setting II.1} while the bottom row plots (Panel D-F) correspond to \textit{Setting II.2}.
+Fig 2. Comparing estimated link  $\widehat{f}(z)$ and   $\hat{\gamma}_k(t), k=1,2$ (red curves) with the corresponding true link $f$ and true functional coefficients (black curves). The top row plots (Panel A-C) correspond to _Setting II.1_ while the bottom row plots (Panel D-F) correspond to _Setting II.2_.
