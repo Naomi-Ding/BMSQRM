@@ -165,7 +165,7 @@ R CMD BATCH simu_main.R 200 100 0.5 TRUE 3 10 1 1E5 6E4 100 5 1 FALSE TRUE 9 2 0
 
 ![Curve Generating Process](./figures/curves_generation_spike_slab.png)
 
-Fig 1. Simulated initial curves $\{c\_{1,i}^{(0)}\} \_{i=1}^n$ (Panel A) and $\{c\_{2,i}^{(0)}\}\_{i=1}^n$ (Panel D); perfectly registered functional covariates $\{c\_{1,i}^*(t)\}\_{i=1}^n$ (Panel B) and $\{c\_{2,i}^*(t)\}\_{i=1}^n$ (Panel E); and ``observed" unregistered functional covariates $\{c\_{1,i}(t)\}\_{i=1}^n$ (Panel C) and $\{c\_{2,i}(t)\}\_{i=1}^n$ (Panel F).
+Fig 1. **Left Panel:** the perfectly warped curves $\{c_{1,i}^{(0)}\}_{i=1}^n$ and $\{c_{2,i}^{(0)}\}_{i=1}^n$ as the true functional covariates; **Right Panel:** the distorted curves $\{c_{1,i}(t)\}_{i=1}^n$ and $\{c_{2,i}(t)\}_{i=1}^n$ as the ``observed" functional covariates, where $c_{k,i}(t) = c^{(0)}_{k,i} \odot \tilde{h}_{k,i}(t)$, and the random warping function was defined as $\tilde{h}_{k,i}(t) = t^{u_{k,i}}$ with $u_{k,i} \sim U(0.5,1.5)$ for $k=1,2$ and $i=1, \dots, n$.
 
 #### (b) Visualization of simulation results with two functional covariates
 ![Simulation Results](./figures/simu_fz_gamma_examples.png)
